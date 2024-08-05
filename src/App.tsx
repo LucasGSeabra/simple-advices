@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "./pages/MainPage";
 import Header from "./components/Header";
 import { CssBaseline } from "@mui/material";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <CssBaseline />
       <Header />
+      <Main />
     </div>
   );
 }
